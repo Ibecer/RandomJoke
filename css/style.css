@@ -110,13 +110,14 @@ body
     width: 10rem;
   
     background-color: var(--black);
+    cursor: pointer;
     box-shadow: inset -3px -3px 3px 3px var(--black-shadow);
     border-radius: 15px;
     color:white;
     font-family: 'Coiny', cursive;
     text-decoration: none;
     border: none;
-    outline:none;
+    outline: none;
 }
 
 .magicButton:hover
