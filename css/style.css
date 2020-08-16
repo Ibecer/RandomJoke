@@ -1,0 +1,181 @@
+/* 
+Yellow:         #FFE066
+Yellow-shadow:  #CCA300
+
+Red:            #FF6666
+Red.shadow      #CC0000
+
+Purple:         #D7B3FF
+Purple-shadow:  #7C57A6
+
+Black:         #7F7F7F
+Black-sahdow   #4C4C4C 
+*/
+:root
+{
+    --yellow:           #FFE066;
+    --yellow-shadow:    #CCA300;
+
+    --red:              #FF6666;
+    --red-shadow:       #CC0000;
+
+    --purple:           #D7B3FF;
+    --purple-shadow:    #7C57A6;
+
+    --black:            #7F7F7F;
+    --black-shadow:     #4C4C4C;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+body
+{
+    background-color: var(--purple);
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    font-size: 20px; 
+
+    font-family: 'Coiny', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+
+    background-color:  var(--red);
+    box-shadow: inset -3px -3px 3px 3px var(--red-shadow);
+    border-radius: 10px;  
+}
+
+.header >p
+{
+    padding: 16px 13px 13px 10px;
+}
+
+.header >a
+{
+    font-size: x-large;
+    color: var(--red-shadow);
+    padding: 16px 20px 13px 10px;
+    text-decoration: none;
+}
+
+.header >a:hover
+{
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+.container
+{
+    
+    color: black;
+    display: flex;
+    height: inherit;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.sub__container
+{
+    display: flex;
+    flex-flow: column;
+
+    background-color: var(--yellow);
+    border-radius: 15px;
+    box-shadow: inset -3px -3px 3px 3px var(--yellow-shadow);
+    height: 25rem;
+    width: 35rem;
+
+    font-family: 'Fredoka One', cursive;
+
+    
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title
+{
+    font-family: 'Coiny', cursive;
+    justify-self: flex-start;
+}
+
+.joke-section
+{
+    /* position: absolute; */
+    background-color: var(--red);
+    box-shadow: 3px 3px 3px 3px var(--red-shadow);
+    text-align: justify;
+    border-radius: 15px;
+    padding: 10px;
+
+    height: 15rem;
+    width: 20rem;
+}
+
+.magicButton
+{
+    height: 2rem;
+    width: 10rem;
+  
+    background-color: var(--black);
+    box-shadow: inset -3px -3px 3px 3px var(--black-shadow);
+    border-radius: 15px;
+    color:white;
+    font-family: 'Coiny', cursive;
+    text-decoration: none;
+    border: none;
+}
+
+.magicButton:hover
+{
+    
+    box-shadow: inset -1px -1px 1px 1px var(--black);
+    transition: all 0.3s;
+}
+
+.magicButton:active
+{
+    background-color: var(--black-shadow);
+}
+
+.footer
+{
+    
+    background-color: var(--black);  
+    color: white;
+    border-radius: 15px;  
+    text-align: center;
+}
+
+.footer >span
+{
+    color: var(--black-shadow);
+    font-size: medium; 
+    align-self: flex-end;
+    /* padding: 10px 20px 13px 10px; */
+}
+
+.link
+{
+    align-self: flex-start;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover
+{
+    background-color: var(--black-shadow);
+    border-radius: 5px;
+}
