@@ -11,6 +11,9 @@ Some viewers may find following content higly disturbing and controversial
 [JokeAPI](https://sv443.net/jokeapi/v2/) 
 
 # Author
+
+<em><b>Irving Becerra</b></em>🦆
+
 [![](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fibecer121)](https://twitter.com/ibecer121)
 
-Irving Becerra 🦆
+
